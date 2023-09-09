@@ -16,5 +16,5 @@ let currentUTCTime= document.querySelector("#currentUTCTime")
 let time=date.toUTCString().slice(17,22)
 console.log(time)
 currentUTCTime.innerHTML=`
-<p> The time is  ${time}</p>
+<p> The time is  ${time} GMT</p>
 `
