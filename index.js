@@ -13,8 +13,7 @@ currentDay0fTheWeek.innerHTML=`
 
 // time script
 let currentUTCTime= document.querySelector("#currentUTCTime")
-let time=date.toUTCString().slice(17,22)
-console.log(time)
+const dateMl= date.UTC()
 currentUTCTime.innerHTML=`
-<p> The time is  ${time} GMT</p>
+<p> ${dateMl}</p>
 `
